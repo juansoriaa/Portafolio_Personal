@@ -1,0 +1,170 @@
+body{
+    background: hsla(233, 100%, 90%, 1);
+
+    background: linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CAD0FF", endColorstr="#E3E3E3", GradientType=1 );
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* ---------------------------------------nav-------------------------------------------- */
+a{
+    text-decoration: none;
+    color: rgb(227, 214, 214);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: rgb(236, 24, 24);
+}
+.head01{
+    display:flex;
+    min-height: 70px;
+    background-color:rgb(29, 29, 29);
+    justify-content: space-between;
+    align-items:center;
+    padding: 5px;
+    z-index: 2;
+    
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+
+
+.logo img{
+    height: 70px;
+    margin-right:10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+
+/* ---------------------------------------bloques de preguntas frecuentes -------------------------------------------- */
+
+h2{
+    text-align: center;
+}
+.bloques_faq{
+    text-align: center;
+    justify-items: center;
+    
+}
+.bloques_faq div {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(35, 35, 36);
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(114, 130, 136, 0.999);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    
+}
+.bloques_faq a {
+    color: black;
+}
+
+/* --------------------------------------- cuerpo de bloques de preguntas frecuentes -------------------------------------------- */
+
+.cuerpo_bloque {
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 250px;
+    padding-bottom: 30px;
+
+}
+.cuerpo_bloque  div {
+    padding-top: 80px;
+    border-bottom: 4px solid #7d7c80;
+    font-family: 'Helvetica', sans-serif;
+    padding-bottom: 30px;
+}
+
+.cuerpo_bloque  h4 {
+    text-align: center;
+}
+div button  {
+    padding: 10px;
+    text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Helvetica', sans-serif;
+        border-radius: 50px;
+        margin-left: 45%;
+        margin-right: 45%;
+        text-align: center;
+        margin-top: 30px;
+        color: rgb(34, 4, 4);
+        border: 1px solid #123f88;
+        background-color: #7ba0da;
+}               
+
+.botton a :hover{
+        color: rgb(45, 8, 235);
+    }
+
+
+    /* -------------------footer---------------------- */
+    .fcabeza{
+        background-color: rgb(37, 34, 34);
+        text-align: center;
+        z-index: 2;
+    }
+
+.logo2 img{
+    height: 70px;
+    margin-right:10px;
+}
+
+.finweb{
+    display:flex;
+    min-height: 70px;
+    background-color:rgb(29, 29, 29);
+    align-items:center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    margin-top: 30px;
+}
+.footer1 {
+    display:flex;
+    margin-left: 100px;  
+}   
+div ul {
+    margin: 20px;
+}
+div li {
+    margin: 10px;
+}
+
+.nav{
+    
+    font-family: 'Changa', sans-serif;
+}  
+
+    
+ul{    
+    list-style-type: none;
+}

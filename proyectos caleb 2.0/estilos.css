@@ -1,0 +1,691 @@
+
+
+body{
+    background: rgb(223, 223, 224);
+}
+-----------------------
+body{
+    font-family: 'Black Ops One', cursive;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    
+}
+a{
+    text-decoration: none;
+    color:  rgb(240, 240, 240);
+}
+
+.head01{
+    display:flex;
+    min-height: 70px;
+    background-color: rgb(29, 29, 29);
+    justify-content: space-between;
+    align-items:center;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width:100%;
+    margin-left: -10px;
+}
+
+.nav{
+    
+font-family: 'Changa', sans-serif;
+
+}
+
+.slider{
+    height: 100%;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom:-50px ;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite  alternate ;
+}
+.slider li{
+    margin-left: -40px;
+    margin-right: -40px;
+    
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+}
+@keyframes cambio {
+    0%{margin-left:0 ;}
+    20%{margin-left:0 ;}
+    
+    25%{margin-left:-100% ;}
+    45%{margin-left:-100% ;}
+
+    50%{margin-left:-200% ;}
+    70%{margin-left:-200% ;}
+
+    75%{margin-left:-300% ;}
+    100%{margin-left:-300% ;}
+}
+.ffencabezado{
+    font-family: 'Black Ops One', cursive;
+    background-color: rgb(29,29,29);
+    text-align: center;
+    color: rgb(255, 244, 244);
+    position: static;
+    
+
+}
+.bottom{
+    align-items:center;
+    position: static;
+    display: flex;
+
+}
+.click{
+    display: flex;
+    position: static;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+.vamos{
+    margin-left: -280px;
+    font-size: 50px;
+    margin-top: -30px;
+}
+span{
+    display: flex;
+    margin-top: 180px;
+    margin-left: 150px;
+    width: 70px;
+    height: 70px;
+    font-size: 80px;
+    position:absolute;
+    
+}
+--Contenedor1--
+.contenedor{
+    margin-left: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.contenedor figure{
+    
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 10px 10px rgba(0,0,0, 0.50);
+    cursor: pointer;
+    position: absolute;
+    
+}
+.contenedor figure img{
+    
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(114, 16, 160, 0.5);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.contenedor figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa h1{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor figure .capa h1{
+    color: aliceblue;
+    font-weight: 400;
+    margin-bottom:120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor figure .capa p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1,5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+.cuadrado{
+    background-color: rgba(85, 17, 163, 0.719) ;
+    height: 430px;
+    width: 100%;
+    position:static;
+    z-index: 0;
+}
+.texto{
+    
+    text-align: center;
+    position: relative;
+   position: static;
+    z-index: 1;
+    margin-top: 80px;
+    margin-left: 600px;
+}
+
+.contenedor{
+    display: flex;
+    
+}
+--FinContenedor1--
+--Contenedor2-->
+.contenedor02{
+    margin-left: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.contenedor02 figure{
+    
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 10px 10px rgba(0,0,0, 0.50);
+    cursor: pointer;
+    position: absolute;
+    margin-left: 700px;
+}
+.contenedor02 figure img{
+    
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.contenedor02 figure .capa02{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(47, 139, 38, 0.5);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.contenedor02 figure:hover > .capa02{
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor02 figure:hover > .capa02 h1{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor02 figure .capa02 h1{
+    color: aliceblue;
+    font-weight: 400;
+    margin-bottom:120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor02 figure .capa02 p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1,5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+.cuadrado02{
+    background-color: rgba(26, 94, 35, 0.719) ;
+    height: 430px;
+    width: 100%;
+    position:static;
+    z-index: 0;
+}
+.texto02{
+    
+    text-align: center;
+    position: relative;
+   position: static;
+    z-index: 1;
+    margin-top: 80px;
+    margin-right: 700px;
+}
+
+.contenedor02{
+    display: flex;
+    
+}
+--FinContenmedor2--
+--Contenedor3--
+.contenedor03{
+    margin-left: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.contenedor03 figure{
+    
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 10px 10px rgba(0,0,0, 0.50);
+    cursor: pointer;
+    position: absolute;
+}
+.contenedor03 figure img{
+    
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.contenedor03 figure .capa03{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 224, 231, 0.5);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.contenedor03 figure:hover > .capa03{
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor03 figure:hover > .capa03 h1{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor03 figure .capa03 h1{
+    color: aliceblue;
+    font-weight: 400;
+    margin-bottom:120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor03 figure .capa03 p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1,5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+.cuadrado03{
+    background-color: rgba(43, 143, 168, 0.719) ;
+    height: 430px;
+    width: 100%;
+    position:static;
+    z-index: 0;
+}
+.texto03{
+    
+    text-align: center;
+    position: relative;
+   position: static;
+    z-index: 1;
+    margin-top: 80px;
+    margin-left: 700px;
+}
+
+.contenedor03{
+    display: flex;
+    
+}
+--Contenedor3--
+--Contenedor4-->
+.contenedor04{
+    margin-left: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.contenedor04 figure{
+    
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 10px 10px rgba(0,0,0, 0.50);
+    cursor: pointer;
+    position: absolute;
+    margin-left: 700px;
+}
+.contenedor04 figure img{
+    
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.contenedor04 figure .capa04{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(229, 245, 11, 0.5);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.contenedor04 figure:hover > .capa04{
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor04 figure:hover > .capa04 h1{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor04 figure .capa04 h1{
+    color: rgb(10, 10, 10);
+    font-weight: 400;
+    margin-bottom:120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor04 figure .capa04 p{
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+    line-height: 1,5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+.cuadrado04{
+    background-color: rgba(203, 206, 30, 0.719) ;
+    height: 430px;
+    width: 100%;
+    position:static;
+    z-index: 0;
+}
+.texto04{
+    
+    text-align: center;
+    position: relative;
+   position: static;
+    z-index: 1;
+    margin-top: 80px;
+    margin-right: 700px;
+}
+
+.contenedor04{
+    display: flex;
+    
+}
+--FinContenedor4--  
+--Video--
+.conteVideo{
+    align-items: center;
+    display: flex;
+    margin: 0px;
+}
+.fondo{
+    position: relative;
+    margin-bottom: -525px;
+}
+.video iframe {
+    border-radius: 6px;
+    box-shadow: 0px 10px 10px rgba(0,0,0, 0.50);
+    cursor: pointer;
+    margin: 50px;
+
+}
+.video{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 150px;
+
+}
+.video02 iframe {
+    border-radius: 6px;
+    box-shadow: 0px 10px 10px rgba(0,0,0, 0.50);
+    cursor: pointer;
+    margin: 50px;
+    z-index: 0;
+
+}
+.video02{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    position: static;
+    
+}
+
+--finVideo--
+.logo{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.logo img{
+    height: 70px;
+    margin-right:10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: rgb(221, 36, 30);
+}
+@media(max-width:700px){
+    .head01{
+        flex-direction: column;
+    }
+}
+.finweb{
+    display:flex;
+    min-height: 70px;
+    background-color:rgb(29, 29, 29);
+    align-items:center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    
+
+}
+.gallery-container{
+    margin-top: 20px;
+
+} 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.gallery__item {
+    height: 900px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    padding-left: 13%;
+}
+h3{
+    
+    text-align: center;
+    margin-top: -190px;
+}
+.maps {
+    
+    display: flex;
+    justify-content: center;
+}
+h4{
+    text-align: center;
+}
+.fcabeza{
+    background-color: rgb(37, 34, 34);
+    text-align: center;
+    z-index: 2;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    height: 70px;
+    margin-right:10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: rgb(240, 21, 13);
+}
+@media(max-width:700px){
+    .head01{
+        flex-direction: column;
+    }
+}
+.logo2 img{
+    height: 70px;
+    margin-right:10px;
+}
+.parrafo{
+margin:40px;    
+text-align: center;
+margin-left: 90px;
+margin-right: 90px;
+}
+
+.finweb{
+    display:flex;
+    min-height: 70px;
+    background-color:rgb(29, 29, 29);
+    align-items:center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    margin-top: 60px;
+}
+.footer1 {
+    display:flex;
+    margin-left: 100px;
+    color:aliceblue;
+      
+}   
+ul{
+    list-style-type: none;
+
+}
+div ul {
+   margin: 10px;
+}
+div li {
+    margin: 10px;
+}
+.maps iframe {
+
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px rgba(0,0,0, 0.50);
+    cursor: pointer;
+}
+.logo2 img{
+    height: 70px;
+    margin-right:10px;
+}
+
+.footer1 {
+    display:flex;
+    margin-left: 100px;
+    
+    }   
+h3{
+    
+    text-align: center;
+    margin-top: -190px;
+}
+.maps {
+    
+    display: flex;
+    justify-content: center;
+}
+h4{
+    text-align: center;
+}
+
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: rgb(235, 15, 15);
+}
+@media(max-width:700px){
+    .head01{
+        flex-direction: column;
+    }
+}
+
+.parrafo{
+margin:40px;    
+text-align: center;
+}
+
+
+.maps iframe {
+
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px rgba(0,0,0, 0.50);
+    cursor: pointer;
+}
+/*----------------------------------------------Cambios de Pregunta---------------------------------------------
+/* ---------------------------------------bloques de preguntas frecuentes -------------------------------------------- */
+.estilo01{
+    font-family: 'Black Ops One', cursive; 
+    font-size: 30px; 
+    color: aliceblue; 
+}
+.estilo02{
+    font-family: 'Changa', sans-serif;
+    font-size:20px;
+    color:aliceblue
+}
+.estilo03{
+    font-family: 'Black Ops One', cursive; 
+    font-size: 30px; 
+    color: rgb(0, 0, 0); 
+}
+.estilo04{
+    font-family: 'Changa', sans-serif;
+    font-size:20px;
+    color:rgb(5, 5, 5)
+}

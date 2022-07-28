@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: hsla(233, 100%, 90%, 1);
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* ---------------------------------------nav-------------------------------------------- */
+a{
+    text-decoration: none;
+    color: rgb(227, 214, 214);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    font-family: 'Changa', sans-serif;
+}
+nav a:hover{
+    color: rgb(228, 31, 24);
+}
+.head01{
+    display:flex;
+    min-height: 70px;
+    background-color:rgb(29, 29, 29);
+    justify-content: space-between;
+    align-items:center;
+    padding: 5px;
+    z-index: 2;
+    
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+/* -------------- imagen-------------- */
+
+.imagen_fondo{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -810px;
+    
+}
+.imagen_fondo img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------- imagen ----------------------------*/
+
+/* --------------------------formulario------------------- */
+
+body{background:#5f5151;margin:0}
+
+.form{width:340px;
+    height:440px;
+    background:#e6e6e6;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px rgb(255, 1, 1);
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:absolute;
+    left: 40%;
+    top: 80px;
+
+}
+
+h2{margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    color:#412927;
+    border-bottom:3px solid #c9604b}
+
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;transition:all .3s;
+    border-bottom:2px solid #c9604b}
+
+
+input {
+    border-bottom:2px solid #c9604b}
+
+
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#403e3e
+}
+
+button{
+    float:center;
+    padding:8px 12px;
+    margin:25px 100px 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #dc4949;
+    background:0;
+    color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s}
+
+button:hover{
+    background:#ef3333;color:rgb(195, 155, 155)}
+
+
+
+/* --------------fin formulario---------------------------------- */
+
+
+.logo img{
+    height: 70px;
+    margin-right:10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+
+    /* -------------------footer---------------------- */
+    .fcabeza{
+        background-color: rgb(29, 29, 29);
+        text-align: center;
+        z-index: 2;
+    }
+
+.logo2 img{
+    height: 70px;
+    margin-right:10px;
+}
+
+.finweb{
+    display:flex;
+    min-height: 70px;
+    background-color:rgb(29, 29, 29);
+    align-items:center;
+    position: sticky;
+    bottom: 0px;
+    z-index: 1;
+    margin-top: 800px;
+
+}
+.footer1 {
+    display:flex;
+    margin-left: 100px;  
+}   
+div ul {
+    margin: 20px;
+}
+div li {
+    margin: 10px;
+}
+
+.nav{
+    
+    font-family: 'Changa', sans-serif;
+}  
+
+    
+ul{    
+    list-style-type: none;
+}
